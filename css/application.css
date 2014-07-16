@@ -81,17 +81,6 @@ body {
   line-height: 1.6em;
 }
 
-.reel {
-  height: 300px;
-  margin-bottom: 40px!important;
-}
-
-.reel div {
-  height: 300px;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 #press {
   background-image: url(../img/frenchpress.png);
   background-position: left center;
@@ -155,6 +144,12 @@ body {
 
 @media (max-width: 404px) {
   #press .attrib {
-    bottom: -135px;
+    bottom: -145px;
+  }
+}
+
+@media (max-width: 320px) {
+  #press .attrib {
+    bottom: -155px;
   }
 }
