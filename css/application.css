@@ -1,5 +1,5 @@
 body {
-  font-family: 'FilosofiaRegular', monospace;
+  font-family: 'FilosofiaRegular', Georgia;
 }
 
 .absolute {
@@ -15,7 +15,7 @@ body {
 }
 
 .hero {
-  min-height: 544px;
+  height: 544px;
   width: 100vw;
   background: url(../img/hero.jpg) center center;
   background-size: cover;
@@ -54,7 +54,7 @@ body {
 
 /* END HERO */
 
-.count {
+.one .count {
   color: #777;
 }
 
@@ -69,11 +69,10 @@ body {
 
 .card.one {
   background-color: #EEE;
-  color: #666;
 }
 
 .card.one p {
-  font-size: 26px;
+  font-size: 34px;
   line-height: 1.6em;
 }
 
@@ -103,6 +102,11 @@ body {
   height: 650px;
 }
 
+#press .attrib {
+  bottom: -70px;
+  left: 45px;
+}
+
 @media (min-width: 1600px) {
   #press {
     background-size: contain;
@@ -122,13 +126,31 @@ body {
 }
 
 @media (max-width: 675px) {
-  .card.one .col-xs-8 {
+  .card .col-xs-8 {
     padding-left: 30px;
+  }
+}
+
+@media (max-width: 556px) {
+  #press .attrib {
+    bottom: -95px;
   }
 }
 
 @media (max-width: 450px) {
   .hero .cont .label {
     left: 0;
+  }
+}
+
+@media (max-width: 430px) {
+  #press .attrib {
+    bottom: -105px;
+  }
+}
+
+@media (max-width: 404px) {
+  #press .attrib {
+    bottom: -135px;
   }
 }
