@@ -55,7 +55,7 @@ body {
 /* END HERO */
 
 .one .count {
-  color: #777;
+  color: #999;
 }
 
 .card {
@@ -140,6 +140,10 @@ body {
 @media (max-width: 450px) {
   .hero .cont .label {
     left: 0;
+  }
+  .card.two .inner {
+    width: auto !important;
+    padding-right: 12px;
   }
 }
 
