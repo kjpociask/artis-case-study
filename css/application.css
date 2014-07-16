@@ -1,0 +1,134 @@
+body {
+  font-family: 'FilosofiaRegular', monospace;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.right {
+  right: 0px;
+}
+
+.left {
+  left: 0px;
+}
+
+.hero {
+  min-height: 544px;
+  width: 100vw;
+  background: url(../img/hero.jpg) center center;
+  background-size: cover;
+  display: table;
+  color: rgba(255,255,255,.9);
+}
+
+.hero .cont {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.hero .kern {
+  padding: 3px;
+}
+
+.hero .cont h1 {
+  font-size: 90px;
+  font-weight: normal;
+}
+
+.hero .cont .label {
+  border: none;
+  border-radius: 0px;
+  background-image: url(../img/case-study.png);
+  position: relative;
+  top: -22px;
+  left: 5em;
+  display: block;
+  height: 60px;
+  width: 265px;
+  margin: auto;
+}
+
+/* END HERO */
+
+.count {
+  color: #777;
+}
+
+.card {
+  padding: 40px 0px;
+}
+.card-inner {
+  max-width: 1600px;
+  position: relative;
+  margin: auto;
+}
+
+.card.one {
+  background-color: #EEE;
+  color: #666;
+}
+
+.card.one p {
+  font-size: 26px;
+  line-height: 1.6em;
+}
+
+.card p {
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+.reel {
+  height: 300px;
+  margin-bottom: 40px!important;
+}
+
+.reel div {
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#press {
+  background-image: url(../img/frenchpress.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  overflow: visible;
+  height: 650px;
+}
+
+@media (min-width: 1600px) {
+  #press {
+    background-size: contain;
+  }
+}
+
+@media (max-width: 1000px) {
+  .card .row {
+    padding-left: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding-left: 8px;
+  }
+}
+
+@media (max-width: 675px) {
+  .card.one .col-xs-8 {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero .cont .label {
+    left: 0;
+  }
+}
