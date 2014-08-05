@@ -4,6 +4,10 @@
   <meta name="viewport" content="width=device-width, user-scalable=no">
   <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="StyleSheet" media="Screen" />
   <link href="css/application.css" rel="StyleSheet" media="Screen" />
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/flowtype/flowtype.js"></script>
+  <script>
+  </script>
 </head>
 <body>
   <div class="hero">
@@ -22,12 +26,12 @@
         PHOTO BY JOHN KLINE
       </div>
     </div>
-    <div style="width: 67%">
+    <div class='col-md-8 col-sm-8 col-xs-9'>
       <div class="row">
         <div class="col-md-1 col-md-offset-1 col-sm-1 col-xs-1">
           <h1 class="count">01</h1>
         </div>
-        <div class="col-md-8 col-sm-8 col-xs-8">
+        <div class="col-md-8 col-sm-8 col-xs-8 col-xs-offset-1">
           <h1>Art&iacute;s</h1>
         </div>
       </div>
@@ -44,15 +48,16 @@
       </div>
     </div>
   </div>
+  <div class="clearfix"></div>
   </div>
   <div class="card two">
     <div class='card-inner'>
-    <div style="width: 67%" class='inner'>
+    <div class='inner col-md-8 col-sm-8 col-sm-12'>
       <div class="row">
         <div class="col-md-1 col-md-offset-1 col-sm-1 col-xs-1">
           <h1 class="count">02</h1>
         </div>
-        <div class="col-md-8 col-sm-8 col-xs-8">
+        <div class="col-md-8 col-sm-8 col-xs-8 col-xs-offset-1">
           <h1>Brand</h1>
         </div>
       </div>
@@ -81,23 +86,24 @@
       </div>
     </div>
   </div>
+  <div class="clearfix"></div>
   </div>
   <div class="absolute right hidden-xs" id="web" style="width: 33%">
   </div>
 
   <div class="card three">
     <div class='card-inner'>
-    <div style="width: 67%" class='inner'>
+    <div class='inner col-md-8 col-sm-8 col-xs-12'>
       <div class="row">
         <div class="col-md-1 col-md-offset-1 col-sm-1 col-xs-1">
           <h1 class="count">03</h1>
         </div>
-        <div class="col-md-8 col-sm-8 col-xs-8">
+        <div class="col-md-8 col-sm-8 col-xs-8 col-sm-offset-1 col-md-offset-0 col-xs-offset-1">
           <h1>Web and Copywriting</h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-8 col-sm-10 col-md-offset-2 col-sm-offset-1">
+        <div class="col-md-8 col-sm-10 col-md-offset-2 col-sm-offset-1 col-xs-12">
           <p>
             The typical customer for Art&iacute;s is interested in what they are
             purchasing and especially in what they are consuming. They enjoy learning,
@@ -109,25 +115,29 @@
             coffee using a Chemex, but also cover why you would want to (in case you were curious,
             it yields a cup with a light body and clean taste).
           </p>
+          <p class="xs-visible">
+            <a href="#">View Full Site</a>
+          </p>
         </div>
       </div>
       </div>
     </div>
     <div class="card four">
       <div class='card-inner'>
-        <div class="row" style="width: 67%">
+        <div class="row col-md-8 col-sm-8">
           <div class="col-md-1 col-md-offset-1 col-sm-1 col-xs-1">
             <h1 class="count">04</h1>
           </div>
-          <div class="col-md-5 col-sm-4 col-xs-4">
+          <div class="col-md-5 col-sm-6 col-xs-9 col-xs-offset-1 col-sm-offset-1 col-md-offset-0">
             <h1>Flavor Profile</h1>
           </div>
-          <div class="col-md-4 col-sm-2" style="margin-left: -50px; ">
-            <img src="img/cinnamon.jpg" class="img-responsive"/>
+          <div class="col-md-4 col-sm-4 col-xs-12" >
+            <img src="img/cinnamon.jpg" class="img-responsive cinnamon"/>
           </div>
         </div>
         <div class="row">
-          <br />
+          <div class="clearfix"></div>
+          <br /><br />
           <div class="col-md-6 col-sm-6">
             <img src="img/flavor-profile.jpg" class="img-responsive">
           </div>

@@ -35,7 +35,7 @@ body {
 }
 
 .hero .cont h1 {
-  font-size: 90px;
+  font-size: 4em;
   font-weight: normal;
 }
 
@@ -55,7 +55,7 @@ body {
 /* END HERO */
 
 h1 {
-  font-size: 4vw;
+  font-size: 3em;
 }
 
 .omg {
@@ -82,7 +82,7 @@ h1 {
 }
 
 .card.one p {
-  font-size: 34px;
+  font-size: 2em;
   line-height: 1.6em;
 }
 
@@ -134,8 +134,8 @@ h1 {
   background-image: url(../img/web.png);
   height: 630px;
   margin-top: 0px;
-  background-size: fit;
   background-repeat: no-repeat;
+  background-position: top center;
 }
 
 @media (min-width: 1600px) {
@@ -160,6 +160,12 @@ h1 {
   }
 }
 
+@media (max-width: 992px) {
+  .cinnamon {
+
+  }
+}
+
 @media (max-width: 768px) {
   .card {
     padding-left: 8px;
@@ -181,7 +187,7 @@ h1 {
 
 @media (max-width: 556px) {
   #press .attrib {
-    bottom: -95px;
+    bottom: -165px;
   }
   .card.four .accent {
     width: 50%;
@@ -217,6 +223,6 @@ h1 {
 
 @media (max-width: 320px) {
   #press .attrib {
-    bottom: -155px;
+    bottom: -70px;
   }
 }
