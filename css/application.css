@@ -54,13 +54,17 @@ body {
 
 /* END HERO */
 
+h1 {
+  font-size: 4vw;
+}
+
 .omg {
   max-width: 1600px;
   margin: auto;
   position: relative;
 }
 
-.one .count {
+.count {
   color: #999;
 }
 
@@ -95,6 +99,15 @@ body {
   top: 50px;
 }
 
+.icons {
+  margin-top: 30px
+}
+
+.sub {
+  margin-top: 30px;
+  color: #AAA!important;
+}
+
 #press {
   background-image: url(../img/frenchpress.png);
   background-position: left center;
@@ -118,10 +131,10 @@ body {
 }
 
 #web {
-  background-image: url(../img/web.jpg);
+  background-image: url(../img/web.png);
   height: 630px;
-  margin-top: 90px;
-  background-size: cover;
+  margin-top: 0px;
+  background-size: fit;
   background-repeat: no-repeat;
 }
 
